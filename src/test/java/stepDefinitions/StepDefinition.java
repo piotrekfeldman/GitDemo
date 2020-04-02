@@ -39,6 +39,7 @@ public class StepDefinition extends Utils {
         //tę samą czynność wykonujemy w stoosunku do odpowiedzi (response)
         respSpec=new ResponseSpecBuilder().expectContentType(ContentType.JSON).expectStatusCode(200).build();
 //        throw new io.cucumber.java.PendingException();
+
     }
 
 
